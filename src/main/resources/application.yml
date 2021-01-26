@@ -1,0 +1,10 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: freemaker
+  freemarker:
+    cache: false  #关闭缓存
+    settings:
+      template_update_delay: 0    # 立即检查模板更新
+#    suffix: .ftl
